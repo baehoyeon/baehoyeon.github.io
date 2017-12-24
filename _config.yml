@@ -2,9 +2,9 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Qoo's Blog
 paginate:       5
-baseurl:        "/tale"
+baseurl:        "/"
 url:            "https://baehoyeon.github.io"
 
 # Assets
