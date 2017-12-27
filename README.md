@@ -11,7 +11,9 @@ VISIT [HOMEPAGE](https://baehoyeon.github.io)
 Tale uses Jekyll's built-SCSS compiler to generate CSS. You'll need to install the Jekyll gem:
 
 ```bash
-$ gem install jekyll
+$ brew install ruby
+$ sudo gem install jekyll
+$ sudo gem install jekyll-paginate
 ```
 
 ### 2. Running Locally
