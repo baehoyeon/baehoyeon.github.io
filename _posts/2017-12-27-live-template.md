@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ETC] LiveTemplate"
+title: "[ETC] Intellij LiveTemplate"
 author: "Qoo"
 ---
 
@@ -15,7 +15,7 @@ author: "Qoo"
 
 ### example
 #### react-component
-```javascript 1.6
+```
 import React, { PropTypes } from 'react';
 
 const propTypes = {
@@ -39,7 +39,7 @@ $COMPONENT$.propTypes = propTypes;
 export default $COMPONENT$;
 ```
 #### react-component-redux
-```javascript 1.6
+```
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 
@@ -63,7 +63,7 @@ export default class $COMPONENT$ extends React.Component {
 ```
 
 #### react-component-stateless 
-```javascript 1.6 
+``` 
 import React, {PropTypes} from 'react';
 
 const propTypes = {};
