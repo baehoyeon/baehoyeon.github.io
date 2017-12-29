@@ -4,7 +4,7 @@ VISIT [HOMEPAGE](https://baehoyeon.github.io)
 ## Features
 - Study for software development
 - Computes the issues that have occurred during development
-- A little memo
+- memo
 
 ## Usage
 ### 1. Install dependencies
