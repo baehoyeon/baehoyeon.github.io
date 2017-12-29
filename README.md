@@ -23,7 +23,7 @@ To test your site locally, run this in your site's root directory
 $ jekyll serve --watch
 ```
 
-Head to http://localhost:4000/tale/ to see your site in action.
+Head to http://localhost:4000 to see your site in action.
 
 ## License
 See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
