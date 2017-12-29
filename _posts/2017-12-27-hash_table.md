@@ -2,6 +2,7 @@
 layout: post
 title: "[JAVA] Hash Table"
 author: "Qoo"
+category: Java
 ---
 
 # Hash Table

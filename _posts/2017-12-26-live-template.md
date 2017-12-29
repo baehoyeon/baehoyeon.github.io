@@ -2,6 +2,7 @@
 layout: post
 title: "[ETC] Intellij LiveTemplate"
 author: "Qoo"
+category: Etc
 ---
 
 # Live Template

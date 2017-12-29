@@ -2,6 +2,7 @@
 layout: post
 title: "[WEB] Http status code"
 author: "Qoo"
+category: Web
 ---
 
 # HTTP STATUS CODE

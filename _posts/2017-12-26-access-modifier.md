@@ -2,6 +2,7 @@
 layout: post
 title: "[JAVA] Access Modifier"
 author: "Qoo"
+category: Java
 ---
 
 # Access Modifier

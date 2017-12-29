@@ -2,6 +2,7 @@
 layout: post
 title: "[JAVA] String Constant Pool"
 author: "Qoo"
+category: Java
 ---
 
 ## String Constant Pool
