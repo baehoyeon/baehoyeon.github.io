@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[ISSUE] Spring Transactional RollBackException"
+title: "[ISSUE] Transactional RollBackException"
 author: "Qoo"
-category: ISSUE
+category: Issue
 ---
 
 # Spring Transactional RollBackException
