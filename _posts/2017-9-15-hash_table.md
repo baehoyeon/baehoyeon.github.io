@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[JAVA] Hash Table"
+title: "[JAVA] Hash table"
 author: "Qoo"
 category: Java
 ---
 
-# Hash Table
+# Hash table
 해싱은 키값을 비교함으로써 탐색하고자하는 항목에 접근하는 것을 이야기 합니다.
 
 키 값에 산술적인 연산을 적용하여 항목이 저장되어있는 테이블의 주소를 계산하여 항목에 접근하고, 

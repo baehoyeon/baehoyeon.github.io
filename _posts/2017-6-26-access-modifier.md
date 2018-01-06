@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[JAVA] Access Modifier"
+title: "[JAVA] Access modifier"
 author: "Qoo"
 category: Java
 ---
 
-# Access Modifier
+# Access modifier
 접근 제어자는 public, protected, private 3개 및 지정하지 않은default가 있습니다.
 
 ## public

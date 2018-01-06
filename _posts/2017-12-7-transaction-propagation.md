@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[ISSUE] Spring Transactional RollBackException"
+title: "[ISSUE] Spring transactional rollBackException"
 author: "Qoo"
 category: ISSUE
 ---
 
-# Spring Transactional RollBackException
+# Spring transactional rollBackException
 ## 에러정보
 ```java
 org.springframework.transaction.HeuristicCompletionException : Heuristic completion: outcome state is rolled back; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly

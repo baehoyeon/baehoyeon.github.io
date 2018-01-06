@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[JAVA] String Constant Pool"
+title: "[JAVA] String constant pool"
 author: "Qoo"
 category: Java
 ---
 
-## String Constant Pool
+## String constant pool
 예제부터 보자
 
 ### 코드

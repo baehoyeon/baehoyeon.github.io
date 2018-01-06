@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SWIFT] string template"
+title: "[SWIFT] String template"
 author: "Qoo"
 category: ISSUE
 ---
