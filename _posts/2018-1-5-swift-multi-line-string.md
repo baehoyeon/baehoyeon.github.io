@@ -36,7 +36,7 @@ print(multiLineText)
 두번째 \"\"\" 앞에도 아무것도 올 수 없습니다.
 
 ### 예
-```javascript
+```text
 let multiLineText: String = """
 괜찮아요.
 내가 옆에 있어요.

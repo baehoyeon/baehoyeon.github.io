@@ -29,7 +29,7 @@ String.format("에러 내용은 %s", "NullPointerException");
 예를 통해서 Swift 에서는 어떻게 처리하는지 알아보겠습니다.
 
 ### 예
-```javascript
+```text
 var errorMessage : String
 
 let errorVariable = "제목"
