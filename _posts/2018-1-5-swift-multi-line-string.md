@@ -2,7 +2,7 @@
 layout: post
 title: "[SWIFT] Multi line string literals"
 author: "Qoo"
-category: ISSUE
+category: Swift
 ---
 
 # Multi line string literals
@@ -51,3 +51,6 @@ print(multiLineText)
 사랑해요.
 ````
 
+### 참고
+https://www.agnosticdev.com/content/how-work-multi-line-string-literals-swift
+https://github.com/apple/swift-evolution/blob/master/proposals/0168-multi-line-string-literals.md

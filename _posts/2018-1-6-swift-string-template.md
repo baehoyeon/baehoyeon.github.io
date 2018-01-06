@@ -2,7 +2,7 @@
 layout: post
 title: "[SWIFT] String template"
 author: "Qoo"
-category: ISSUE
+category: Swift
 ---
 
 # String template
@@ -54,3 +54,5 @@ print(errorMessage)
 오늘 하루 총 1500 건의 에러가 발생했습니다.
 ```
 
+### 참고
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html
