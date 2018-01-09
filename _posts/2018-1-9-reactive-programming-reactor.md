@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring] Reactive Programming"
+title: "[Java] Reactive Programming"
 author: "Qoo"
 category: Java
 ---
