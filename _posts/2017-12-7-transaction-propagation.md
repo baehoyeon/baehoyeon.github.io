@@ -2,10 +2,12 @@
 layout: post
 title: "[ISSUE] Spring transactional rollBackException"
 author: "Qoo"
-category: ISSUE
+category: Issue
 ---
 
 # Spring transactional rollBackException
+서버 운영중에 이런 에러가 갑자기 발생하기 시작했습니다.
+
 ## 에러정보
 ```java
 org.springframework.transaction.HeuristicCompletionException : Heuristic completion: outcome state is rolled back; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly
