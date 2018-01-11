@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SWIFT] String template"
-author: "Qoo"
+author: "Qoopooh"
 category: Swift
 ---
 

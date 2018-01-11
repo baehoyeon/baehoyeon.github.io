@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[ETC] Intellij LiveTemplate"
-author: "Qoo"
+author: "Qoopooh"
 category: Etc
 ---
 

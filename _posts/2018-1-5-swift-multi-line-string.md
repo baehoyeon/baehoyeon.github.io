@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SWIFT] Multi line string literals"
-author: "Qoo"
+author: "Qoopooh"
 category: Swift
 ---
 

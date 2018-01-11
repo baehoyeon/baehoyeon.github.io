@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[ETC] MarkDown Grammar"
-author: "Qoo"
+author: "Qoopooh"
 category: Etc
 ---
 

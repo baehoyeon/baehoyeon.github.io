@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[WEB] Http status code"
-author: "Qoo"
+author: "Qoopooh"
 category: Web
 ---
 

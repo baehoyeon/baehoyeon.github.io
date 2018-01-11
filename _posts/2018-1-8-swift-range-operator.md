@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SWIFT] Range Operators"
-author: "Qoo"
+author: "Qoopooh"
 category: Swift
 ---
 

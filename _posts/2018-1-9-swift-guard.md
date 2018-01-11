@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SWIFT] Guard Statements"
-author: "Qoo"
+author: "Qoopooh"
 category: Swift
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Java] Reactive Programming"
-author: "Qoo"
+author: "Qoopooh"
 category: Java
 ---
 # Reactive Programming
