@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Qoopooh's Dev Blog
+title:          Qoopooh's Blog
 paginate:       5
 baseurl:        ""
 url:            "https://baehoyeon.github.io"
