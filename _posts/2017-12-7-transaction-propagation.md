@@ -71,7 +71,7 @@ isNotExistUser 에서는 NullPointerException 을 통해서 boolean 값을 retur
 
 UserService 의 isNotExistUser 에서 NullPointerException 이 발생하면서 UserApplication 에서 시작한
 
-Transaction 은 rollBackOnly 로 설정된다. (RuntimeException 일때)
+Transaction 은 rollBackOnly 로 설정된다. (RuntimeException 일때 Spring은 Rollback을 실행한다.)
 
 하지만 Exception 을 먹어버리게 코딩이 되어있었기 때문에 문제없이 코드는 계속 진행된다.
 
