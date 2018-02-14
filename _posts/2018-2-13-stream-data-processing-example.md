@@ -123,17 +123,16 @@ public class StreamTest {
 	@Test
 	public void maxAndMinByTest() {
 		// given
-		Comparator<User> monthlySalaryComparator = 
+		Comparator<User> monthlySalaryComparator =
 			Comparator.comparingInt(User::getMonthlySalary);
 
 		// 1. expect - max
 		Optional<User> highestPaidUser = userList.stream()
 			.max(monthlySalaryComparator);
-		
-		highestPaidUser.ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("qoo");
-			print(user);
-		});
+
+		assertThat(highestPaidUser.get().getId()).isEqualTo("qoo");
+		print(highestPaidUser.get());
+
 		// same  method
 		userList.stream()
 			.collect(maxBy(monthlySalaryComparator));
@@ -141,11 +140,9 @@ public class StreamTest {
 		// 2. expect - min
 		Optional<User> lowestPaidUser = userList.stream()
 			.min(monthlySalaryComparator);
-		
-		lowestPaidUser.ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("potter");
-			print(user);
-		});
+
+		assertThat(lowestPaidUser.get().getId()).isEqualTo("potter");
+		print(lowestPaidUser.get());
 		// same  method
 		userList.stream()
 			.collect(minBy(monthlySalaryComparator));
@@ -239,65 +236,57 @@ User(id=potter, name=potter, position=STAFF, monthlySalary=2100000)
 ### Test Code
 ```java
 	@Test
-	public void groupingAndDataProcessingTest() {
-		// 1. when - topSalaryUserByPosition
-		Map<Position, Optional<User>> topSalaryUserByPosition = userList.stream()
-			.collect(
-				groupingBy(
-					User::getPosition,
-					maxBy(Comparator.comparingInt(User::getMonthlySalary))));
-
-		// then - CEO
-		topSalaryUserByPosition.get(Position.CEO).ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("qoo");
-			print(user);
-		});
-
-		// then - MANAGING_DIRECTOR
-		topSalaryUserByPosition.get(Position.MANAGING_DIRECTOR).ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("peter");
-			print(user);
-		});
-
-		// then - MANAGER
-		topSalaryUserByPosition.get(Position.MANAGER).ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("mac");
-			print(user);
-		});
-
-		// then - STAFF
-		topSalaryUserByPosition.get(Position.STAFF).ifPresent(user -> {
-			assertThat(user.getId()).isEqualTo("john");
-			print(user);
-		});
-
-		// 2. when - totalSalaryByPosition
-		Map<Position, Integer> totalSalaryByPosition = userList.stream()
-			.collect(
-				groupingBy(
-					User::getPosition,
-					reducing(0, User::getMonthlySalary, Integer::sum)));
-
-		// then - CEO
-		assertThat(totalSalaryByPosition.get(Position.CEO))
-			.isEqualTo(100000000);
-		print(totalSalaryByPosition.get(Position.CEO));
-
-		// then - MANAGING_DIRECTOR
-		assertThat(totalSalaryByPosition.get(Position.MANAGING_DIRECTOR))
-			.isEqualTo(10000000);
-		print(totalSalaryByPosition.get(Position.MANAGING_DIRECTOR));
-
-		// then - MANAGER
-		assertThat(totalSalaryByPosition.get(Position.MANAGER))
-			.isEqualTo(12000000);
-		print(totalSalaryByPosition.get(Position.MANAGER));
-
-		// then - STAFF
-		assertThat(totalSalaryByPosition.get(Position.STAFF))
-			.isEqualTo(9900000);
-		print(totalSalaryByPosition.get(Position.STAFF));
-	}
+  	public void groupingAndDataProcessingTest() {
+  		// 1. when - topSalaryUserByPosition
+  		Map<Position, Optional<User>> topSalaryUserByPosition = userList.stream()
+  			.collect(
+  				groupingBy(
+  					User::getPosition,
+  					maxBy(Comparator.comparingInt(User::getMonthlySalary))));
+  
+  		// then - CEO
+  		assertThat(topSalaryUserByPosition.get(Position.CEO).get().getId()).isEqualTo("qoo");
+  		print(topSalaryUserByPosition.get(Position.CEO).get());
+  
+  		// then - MANAGING_DIRECTOR
+  		assertThat(topSalaryUserByPosition.get(Position.MANAGING_DIRECTOR).get().getId()).isEqualTo("peter");
+  		print(topSalaryUserByPosition.get(Position.MANAGING_DIRECTOR).get());
+  
+  		// then - MANAGER
+  		assertThat(topSalaryUserByPosition.get(Position.MANAGER).get().getId()).isEqualTo("mac");
+  		print(topSalaryUserByPosition.get(Position.MANAGER).get());
+  
+  		// then - STAFF
+  		assertThat(topSalaryUserByPosition.get(Position.STAFF).get().getId()).isEqualTo("john");
+  		print(topSalaryUserByPosition.get(Position.STAFF).get());
+  
+  		// 2. when - totalSalaryByPosition
+  		Map<Position, Integer> totalSalaryByPosition = userList.stream()
+  			.collect(
+  				groupingBy(
+  					User::getPosition,
+  					reducing(0, User::getMonthlySalary, Integer::sum)));
+  
+  		// then - CEO
+  		assertThat(totalSalaryByPosition.get(Position.CEO))
+  			.isEqualTo(100000000);
+  		print(totalSalaryByPosition.get(Position.CEO));
+  
+  		// then - MANAGING_DIRECTOR
+  		assertThat(totalSalaryByPosition.get(Position.MANAGING_DIRECTOR))
+  			.isEqualTo(10000000);
+  		print(totalSalaryByPosition.get(Position.MANAGING_DIRECTOR));
+  
+  		// then - MANAGER
+  		assertThat(totalSalaryByPosition.get(Position.MANAGER))
+  			.isEqualTo(12000000);
+  		print(totalSalaryByPosition.get(Position.MANAGER));
+  
+  		// then - STAFF
+  		assertThat(totalSalaryByPosition.get(Position.STAFF))
+  			.isEqualTo(9900000);
+  		print(totalSalaryByPosition.get(Position.STAFF));
+  }
 ```
 ### Console Result
 ```
