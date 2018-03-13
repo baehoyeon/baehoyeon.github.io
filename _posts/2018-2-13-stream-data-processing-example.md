@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SWIFT] Java 8 Stream Data Processing Example"
+title: "[Java] Java 8 Stream Data Processing Example"
 author: "Qoopooh"
 category: Java
 ---
