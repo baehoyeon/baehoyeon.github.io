@@ -11,7 +11,7 @@ I'm married.
 
 Do you want to contact me?
 
-Send messages here!
+Send message here!
 [LinkedIn](https://www.linkedin.com/in/baehoyeon/)
 
 Thanks.
