@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Java] Setup data-jpa, flyway on spring boot2 with kotlin"
+title: "[Spring] Setup data-jpa, flyway on spring boot2 with kotlin"
 author: "Qoo"
 category: Spring
 ---
