@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Spring] Setup data-jpa, flyway on spring boot2 with kotlin"
+title: "[Spring] Setup data-jpa, flyway on spring-boot2 with kotlin"
 author: "Qoo"
 category: Spring
 ---
-# Setup data-jpa, flyway on spring boot2 with kotlin
+# Setup data-jpa, flyway on spring-boot2 with kotlin
 ## 1. Setup data-jpa
 ### 1. build.gradle 
 ```
@@ -163,4 +163,8 @@ INSERT INTO `spring_kotlin_example`.`users` (`id`, `name`, `phoneNumber`) VALUES
 ```
 
 이 파일들은 resources/db.migration 에 넣어줘야한다.
-그 후 bootRun 을하게되면 자동으로 서버를 구동하기 전에 flyway가 작동한다. 
+그 후 bootRun 을하게되면 자동으로 서버를 구동하기 전에 flyway가 작동한다.
+
+
+## 해당 예제 코드
+[github repository](https://github.com/baehoyeon/spring5-kotlin-reactjs/tree/setup_jpa_flyway)
