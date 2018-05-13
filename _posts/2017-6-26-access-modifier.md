@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JAVA] Access modifier"
-author: "Qoopooh"
+author: "Qoo"
 category: Java
 ---
 

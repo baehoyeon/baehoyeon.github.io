@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Java] Java 8 Stream Data Processing Example"
-author: "Qoopooh"
+author: "Qoo"
 category: Java
 ---
 

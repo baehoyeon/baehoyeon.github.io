@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JAVA] String constant pool"
-author: "Qoopooh"
+author: "Qoo"
 category: Java
 ---
 

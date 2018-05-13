@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JAVA] Hash table"
-author: "Qoopooh"
+author: "Qoo"
 category: Java
 ---
 
