@@ -166,7 +166,7 @@ INSERT INTO `spring_kotlin_example`.`users` (`id`, `name`, `phoneNumber`) VALUES
 그 후 bootRun 을하게되면 자동으로 서버를 구동하기 전에 flyway가 작동한다.
 
 ## 해당 예제 코드
-[github repository](https://github.com/baehoyeon/spring5-kotlin-reactjs/tree/setup_jpa_flyway)
+[github repository](https://github.com/baehoyeon/springboot2-kotlin-example/tree/setup_jpa_flyway)
 
 
 ## 3. Reactive programming
@@ -242,4 +242,4 @@ class UserService(val jdbcAsyncUtils: JdbcAsyncUtils, val userRepository: UserRe
 ```
 
 ## 해당 예제 코드
-[github repository](https://github.com/baehoyeon/spring5-kotlin-reactjs/tree/setup_reactive_jdbc)
+[github repository](https://github.com/baehoyeon/springboot2-kotlin-example/tree/setup_reactive_jdbc)
