@@ -15,7 +15,7 @@ permalink: /category/
 
         {% for post in site.categories[category_name] %}
         <article class="archive-item">
-            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} </a> / <a href="https://baehoyeon.github.io{{ post.url }}#disqus_thread"></a></h4>
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} </a> / <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">0 comment</a></h4>
         </article>
         {% endfor %}
     </div>
