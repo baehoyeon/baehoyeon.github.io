@@ -4,6 +4,7 @@ title: Category
 permalink: /category/
 ---
 <div id="archives">
+    <script id="dsq-count-scr" src="//baehoyeon.disqus.com/count.js" async></script>
     {% for category in site.categories %}
     <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -15,7 +16,7 @@ permalink: /category/
 
         {% for post in site.categories[category_name] %}
         <article class="archive-item">
-            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} </a> / <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> </a></h4>
         </article>
         {% endfor %}
     </div>

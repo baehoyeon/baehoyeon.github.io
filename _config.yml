@@ -29,3 +29,6 @@ github:
 # Gems
 plugins:
   - jekyll-paginate
+
+disqus:
+    shortname: baehoyeon
