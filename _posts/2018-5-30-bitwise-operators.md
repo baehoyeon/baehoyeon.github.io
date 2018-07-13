@@ -2,7 +2,7 @@
 layout: post
 title: "[ETC] Bitwise operators"
 author: "Qoo"
-category: Spring
+category: Etc
 ---
 # 비트연산자
 비트 연산자는 컴퓨터 내부의 정보를 비트 단위로 비교하거나 조작할 때 사용합니다.
